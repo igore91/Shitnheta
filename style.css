@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100%;
     background-image: url(https://i.pinimg.com/originals/74/0d/b5/740db5d8438824ae132c40a279b6c368.jpg);
+    background-position: center left;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -47,11 +48,6 @@ main.cards section.card:first-child {
 main.cards section.card .icon {
     width: 64px;
     height: 64px;
-}
-
-main.cards section.card .icon:hover {
-    width: 60px;
-    height: 60px;
 }
 
 main.cards section.card img {
@@ -99,27 +95,56 @@ main.cards section.card button {
 main.cards section.card.contact button {
     background: linear-gradient(to right, #34af23, #2a8f1d);
 }
+
+main.cards section.card.contact button:hover {
+    background: linear-gradient(to right, #298d1c, #247c19);
+}
+
 main.cards section.card.shop button {
     background: linear-gradient(to right, #bc2a8d, #8b1e69);
 }
+
+main.cards section.card.shop button:hover {
+    background: linear-gradient(to right, #a8257e, #7a1a5b);
+}
+
 main.cards section.card.about button {
     background: linear-gradient(to right, #7289da, #4e5fa3);
 }
+
+main.cards section.card.about button:hover {
+    background: linear-gradient(to right, #6376bd, #404e85);
+}
+
 
 main.cards section.card.contact {
     box-shadow: 20px 20px 50px -30px #34af23;
     animation: bounceInDown;
     animation-duration: 1s;
 }
+
+main.cards section.card.contact:hover {
+    box-shadow: none;
+}
+
 main.cards section.card.shop {
     box-shadow: 20px 20px 50px -30px #bc2a8d;
     animation: bounceInDown;
     animation-duration: 1.1s;
 }
+
+main.cards section.card.shop:hover {
+    box-shadow: none;
+}
+
 main.cards section.card.about {
     box-shadow: 20px 20px 50px -30px #7289da;
     animation: bounceInDown;
     animation-duration: 1.2s;
+}
+
+main.cards section.card.about:hover {
+    box-shadow: none;
 }
 
 @media screen and (max-width: 720px) {
