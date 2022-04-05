@@ -177,6 +177,9 @@ span button {
     letter-spacing: 4px;
     border: none;
     border-radius: 8px;
+    animation: bounceInDown;
+    animation-duration: 2s;
+    background-color: #03e9f4;
 }
 
 span button:hover {
