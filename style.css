@@ -17,6 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
     color: #434343;
 
@@ -164,6 +166,57 @@ main.cards section.card.about:hover {
     main.cards section.card button {
         font-size: 70%;
     }
+
+    span button {
+        margin-bottom: 30px;
+    }
+}
+
+span button {
+    padding: 10px 150px;
+
+  color: #ffffff;
+
+  animation: bounceInDown;
+  animation-duration: 2s;
+
+  background-color: rgb(26, 166, 213);
+
+  border: none;
+
+  border-radius: 15px;
+
+  font-size: 16px;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  overflow: hidden;
+
+  transition: 0.2s;
+
+  margin-top: 40px;
+
+  letter-spacing: 4px
+}
+
+span button:hover {
+    background: #03e9f4;
+
+    color: #fff;
+  
+    border-radius: 10px;
+  
+    box-shadow: 0 0 5px #03e9f4,
+  
+                0 0 25px #03e9f4,
+  
+                0 0 50px #03e9f4,
+  
+                0 0 100px #03e9f4;
+                
+    cursor: pointer;
 }
 
 footer {
@@ -174,6 +227,7 @@ footer {
     text-align: center;
     width: 100%;
     color: white;
+    bottom: 0;
 }
 
 footer a {
