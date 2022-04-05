@@ -174,31 +174,9 @@ main.cards section.card.about:hover {
 
 span button {
     padding: 10px 150px;
-
-  color: #ffffff;
-
-  animation: bounceInDown;
-  animation-duration: 2s;
-
-  background-color: rgb(26, 166, 213);
-
-  border: none;
-
-  border-radius: 15px;
-
-  font-size: 16px;
-
-  text-decoration: none;
-
-  text-transform: uppercase;
-
-  overflow: hidden;
-
-  transition: 0.2s;
-
-  margin-top: 40px;
-
-  letter-spacing: 4px
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 8px;
 }
 
 span button:hover {
