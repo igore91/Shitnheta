@@ -11,7 +11,7 @@ body {
     background: #F6F9FF;
     height: 100vh;
     width: 100%;
-    background-image: url(https://i.pinimg.com/originals/74/0d/b5/740db5d8438824ae132c40a279b6c368.jpg);
+    background-image: linear-gradient(180deg, #00b0f5 0, #33aef8 8.33%, #51abf9 16.67%, #67a8f9 25%, #7ba4f8 33.33%, #8da1f6 41.67%, #9d9df2 50%, #ac99ed 58.33%, #b995e7 66.67%, #c591e1 75%, #d08ed9 83.33%, #d98bd0 91.67%, #e188c7 100%);
     background-position: center left;
     background-size: cover;
     display: flex;
